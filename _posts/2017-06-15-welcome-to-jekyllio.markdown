@@ -17,4 +17,4 @@ A simple catalogue of every available item at the academy, including the catalog
 <img src="{{ site.url }}/assets/book.jpg" class="w-100" alt="book">
 <img src="{{ site.url }}/assets/book3.PNG" class="w-100" alt="book">
 <img src="{{ site.url }}/assets/book4.JPG" class="w-100" alt="book">
-<img src="{{ site.url }}/assets/book5.PNG" class="w-100" alt="book">
+<img src="{{ site.url }}/assets/book5.png" class="w-100" alt="book">
