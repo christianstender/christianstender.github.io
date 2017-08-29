@@ -8,5 +8,5 @@ IKEA SYNAS light box, IKEA RIBBA picture frames, prints, anal butt plug
 
 <img src="{{ site.url }}/assets/synas5.JPG" class="w-100" alt="flag">
 <img src="{{ site.url }}/assets/synas4.JPG" class="w-100" alt="flag">
-<img src="{{ site.url }}/assets/synas6.jpg" class="w-100" alt="flag">
 <img src="{{ site.url }}/assets/synas7.JPG" class="w-100" alt="flag">
+<img src="{{ site.url }}/assets/synas6.jpg" class="w-100" alt="flag">
