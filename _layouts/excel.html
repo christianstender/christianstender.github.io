@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+
+
+
+  <body class=" excel">
+<header class="color pa4 fixed bottom-0 w-100">
+  <h1 class=""><a href="{{ site.url }}">{{ site.title }}</a></h1>
+</header>
+
+
+
+
+    <main  aria-label="Content" class="double ">
+
+      <article>
+        <header>
+
+          <h1>{{ page.title }}</h1>
+        </header>
+       {{ content }}
+</article>
+<!--<footer>
+<a href="{{ "/" | relative_url }}">(Back)</a>
+</footer>-->
+    </main>
+
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article  itemscope itemtype="http://schema.org/BlogPosting">
+<header >
+    <h1>{{ page.title | escape }}</h1>
+
+        <p>{% assign date_format = site.minima.date_format | default: "%B %Y" %}
+        {{ page.date | date: date_format }}
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
+</header>
+  <div  itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>
+
+<!--<a  href="{{ "/" | relative_url }}">Back</a>-->
