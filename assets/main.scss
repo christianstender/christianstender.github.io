@@ -16,14 +16,14 @@ $secondary-color: rgba(0,0,0,0)	;
 
 
 
-	@import url('https://fonts.googleapis.com/css?family=Roboto');
+	@import url('https://fonts.googleapis.com/css?family=Asap|Roboto+Condensed');
 
 
 
 body {
-
+	background-color:  	white;
   color: $primary-color;
-  font-family: 'Roboto', Sans-serif;
+  font-family: 'Asap', Sans-serif;
 }
 
 p,h1,h2,h3,li,a {
@@ -108,7 +108,8 @@ nav {
 }
 
 .single.color {
-  width:40%;
+  width:35%;
+  background-color: white;
 }
 
 .double {
@@ -121,6 +122,10 @@ nav {
 @media screen and (max-width: 1000px) {
 .single, .single.color{
   width: 50%;
+}
+.letter-underline-none::first-letter {
+  text-decoration: underline;
+  text-decoration-color: #FFF;
 }
 
 }

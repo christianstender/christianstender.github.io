@@ -1,6 +1,6 @@
 /*! TACHYONS v4.7.3 | http://tachyons.io */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Asap|Roboto+Condensed");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -6943,8 +6943,9 @@ img {
   background-color: rgba(0, 0, 0, 0); }
 
 body {
+  background-color: white;
   color: black;
-  font-family: 'Roboto', Sans-serif; }
+  font-family: 'Asap', Sans-serif; }
 
 a {
   color: black; }
@@ -6968,7 +6969,8 @@ nav {
   overflow: auto; }
 
 .single.color {
-  width: 40%; }
+  width: 35%;
+  background-color: white; }
 
 .double {
   width: 100%;
@@ -6976,7 +6978,11 @@ nav {
 
 @media screen and (max-width: 1000px) {
   .single, .single.color {
-    width: 50%; } }
+    width: 50%; }
+
+  .letter-underline-none::first-letter {
+    text-decoration: underline;
+    text-decoration-color: #FFF; } }
 @media screen and (max-width: 700px) {
   .single, .single.color {
     width: 100%;
